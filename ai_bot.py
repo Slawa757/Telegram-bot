@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DEEPSEEK_API_KEY = os.getenv("sk-bfcd6b0adfad4e46ac96e49e30ea321d")
-TELEGRAM_BOT_TOKEN = os.getenv("7819860080:AAFRf49OWrp4iO8b3O_8ppsMcUs3Z1ui5M0")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
